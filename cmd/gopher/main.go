@@ -2,14 +2,11 @@ package main
 
 import (
 	"flag"
-	"fmt"
-	"io"
 	"math/rand"
-	"os"
 	"time"
 )
 
-var out io.Writer = os.Stdout
+//var out io.Writer = os.Stdout
 
 
 func main() {
@@ -22,15 +19,15 @@ func main() {
 	var port int
 	flag.IntVar(&port,"port",defaultPort,"port to use")
 
-	fmt.Fprintln(out, "\x1b[2J")
-	gopherMsg := makeGopherMsg()
-	for i := 0; i < 75; i++ {
-		fmt.Fprintf(out, "\x1b[10;%dH\x1bK", i)
-		fmt.Print(gopherMsg)
-		time.Sleep(50 * time.Millisecond)
+	//fmt.Fprintln(out, "\x1b[2J")
+	//gopherMsg := makeGopherMsg()
+	//for i := 0; i < 75; i++ {
+	//	fmt.Fprintf(out, "\x1b[10;%dH\x1bK", i)
+	//	fmt.Print(gopherMsg)
+	//	time.Sleep(50 * time.Millisecond)
+	//
 
-
-	}
+	//}
 }
 
 func makeGopherMsg() string {
