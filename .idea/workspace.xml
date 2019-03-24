@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c45bbcb-cf46-4664-aac5-700779ee4a23" name="Default Changelist" comment="" />
+    <list default="true" id="4c45bbcb-cf46-4664-aac5-700779ee4a23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/gopher/gopher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/gopher/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/gopher/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmd/gopher/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="e#14#64#0" expanded="true" />
               </folding>
@@ -48,15 +52,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="554" />
+    <option name="y" value="1103" />
     <option name="width" value="1440" />
-    <option name="height" value="830" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,23 +71,10 @@
               <item name="gopher-cmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="gopher-cmd" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gopher-cmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopher-cmd" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopher-cmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopher-cmd" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-              <item name="gopher" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,19 +112,20 @@
       <workItem from="1552616912229" duration="102000" />
       <workItem from="1552617031810" duration="2565000" />
       <workItem from="1552652083296" duration="600000" />
-      <workItem from="1552663372271" duration="998000" />
+      <workItem from="1552663372271" duration="3390000" />
+      <workItem from="1553438926914" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4265000" />
+    <option name="totallyTimeSpent" value="7650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <frame x="554" y="1103" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" sideWeight="0.50318474" side_tool="true" visible="true" weight="0.2639485" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -168,8 +163,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/gopher/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#14#64#0" expanded="true" />
           </folding>
