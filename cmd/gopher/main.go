@@ -1,24 +1,15 @@
-package main
+package hgg
 
 import (
 	"flag"
+	"fmt"
 	"math/rand"
 	"time"
 )
 
 //var out io.Writer = os.Stdout
 
-
 func main() {
-	flag.Parse()
-
-	const defaultPort = 3000
-	//受け取ったちをポインタとして返す
-	//port := flag.Int("port",defaultPort,"use")
-	//あらかじめ定義した変数にバインドする
-	var port int
-	flag.IntVar(&port,"port",defaultPort,"port to use")
-
 	//fmt.Fprintln(out, "\x1b[2J")
 	//gopherMsg := makeGopherMsg()
 	//for i := 0; i < 75; i++ {
@@ -26,6 +17,14 @@ func main() {
 	//	fmt.Print(gopherMsg)
 	//	time.Sleep(50 * time.Millisecond)
 	//
+	const defaultPort = 3000
+	//受け取ったちをポインタとして返す
+	//port := flag.Int("port",defaultPort,"use")
+	//あらかじめ定義した変数にバインドする
+	var port int
+	flag.IntVar(&port,"port",defaultPort,"port to use")
+	flag.Parse()
+	fmt.Println(port)
 
 	//}
 }
